@@ -1,0 +1,89 @@
+.box1 {
+    display: block;
+}
+
+.box2 {
+    display: none;
+}
+
+.back {
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+}
+
+.back2 {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+}
+
+.btn {
+    display: block;
+    width: 150px;
+    height: 40px;
+    background: #232323;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #232323;
+}
+
+.btn2 {
+    display: none;
+    width: 150px;
+    height: 40px;
+    background: #232323;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+
+.btn2:hover {
+    background: #fff;
+    color: #232323;
+}
+
+.all {
+    display: none;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.2s all linear;
+}
+
+.all:hover {
+    font-size: 30px;
+}
+
+.all2 {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.2s all linear;
+}
+
+.all2:hover {
+    font-size: 30px;
+}
